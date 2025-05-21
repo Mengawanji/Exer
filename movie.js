@@ -48,3 +48,4 @@ function searchMovies() {
     console.log(error);
   }
 }
+ 
