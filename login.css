@@ -1,0 +1,66 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(229, 229, 235);
+
+}
+
+h2 {
+    text-align: center;
+}
+.authPage {
+    background: rgb(255, 255, 255);
+    padding: 1.6rem;
+    border-radius:6px ;
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid rgb(194, 186, 186);
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+button {
+    height: 45px;
+    width: 100%;
+    background: rgb(53, 127, 255);
+    border: 1px;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+}
+
+.display {
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    background: rgb(64, 64, 255);
+    cursor: pointer;
+
+}
+
+.error {
+    color: #ff0000;
+    font-size: 15px;
+    margin-bottom: 0.3rem;
+
+}

@@ -37,7 +37,7 @@ function searchMovies() {
           <h3>${movie.Title}</h3>
           <p>${movie.Year}</p>
         </div>
-      `,
+        `,
           ).join("");
         } else {
           movieContainer.innerHTML = `<p>${data.Error}</p>`;
@@ -48,3 +48,4 @@ function searchMovies() {
     console.log(error);
   }
 }
+ 

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(252, 250, 254);
+    padding: 3rem;
+    position: relative;
+}
+
+
+.container {
+    max-width: 800px ;
+    margin: auto;
+    text-align: center;  
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+ input {
+    align-items: center;
+    width: 60%;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 4px;
+
+ }
+
+ button {
+    font-size: 15px;
+    background: #004fe2;
+    border: 1px solid  #004fe2;
+    color: #fff;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 15px;
+    padding: 10px;
+ }
+
+ button:hover {
+    background: #057ff9;
+    border: 1px solid #057ff9;
+    cursor: pointer;
+    
+ }
+ 
+ .movie_display {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+ }
+
